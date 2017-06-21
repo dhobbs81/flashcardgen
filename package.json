@@ -14,7 +14,7 @@
         "url": "https://github.com/dhobbs81/flashcardgen"
     },
     "scripts": {
-        "build": "babel ./src -d ./lib --presets es2015,stage-2",
+        "build": "babel ./src -d ./build --presets es2015,stage-2",
         "start": "babel-node ./src/app.js --presets es2015,stage-2",
         "docs": "node_modules/.bin/jsdoc src/**.js --destination ./docs --private"
     },
